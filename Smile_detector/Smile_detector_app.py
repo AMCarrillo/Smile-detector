@@ -53,7 +53,7 @@ while True:
     #Display
     key = cv2.waitKey(1)
     
-    #Stop is Q is pressed
+    #Stop if Q or q is pressed
     if key==81 or key==113:
         break
 
